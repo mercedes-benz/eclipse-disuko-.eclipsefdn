@@ -23,5 +23,9 @@ orgs.newOrg('technology.disuko', 'eclipse-disuko') {
       has_wiki: false,
       auto_init: false,
     },
+    orgs.newRepo('disuko') {
+      has_wiki: false,
+      auto_init: false,
+    },
   ],
 }
