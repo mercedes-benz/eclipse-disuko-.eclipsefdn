@@ -27,3 +27,5 @@ orgs.newOrg('technology.disuko', 'eclipse-disuko') {
     },
   ],
 }
+
+# some comment
