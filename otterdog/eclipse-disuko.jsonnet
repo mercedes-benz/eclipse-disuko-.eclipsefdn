@@ -18,10 +18,14 @@ orgs.newOrg('technology.disuko', 'eclipse-disuko') {
   },
   _repositories+:: [
     orgs.newRepo('disuko-cli') {
-      # Only set values that differ from the defaults, see:
-      # https://github.com/EclipseFdn/otterdog-defaults/blob/main/otterdog-defaults.libsonnet
+      has_wiki: false,
+      auto_init: false,
+    },
+    orgs.newRepo('disuko') {
       has_wiki: false,
       auto_init: false,
     },
   ],
 }
+
+# some comment
